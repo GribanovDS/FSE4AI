@@ -25,27 +25,31 @@ To use this software, ensure you have the following installed:
 
 ### Installation
 
-1. **Clone the Repository**:
+0. Download the model:
+
+https://drive.google.com/file/d/1EPZ8vyr43HHFk6an0erejU2d2X5hLGrs/view?usp=drive_link
+
+2. **Clone the Repository**:
    ```bash
    git clone https://github.com/GribanovDS/FSE4AI.git
    cd FSE4AI
 
-2. **Use make build**:
+3. **Use make build**:
    ```bash
     make build
 
-3. **Use make run**:
+4. **Use make run**:
    ```bash
     make run
 
-4. **Use make preprocess**:
+5. **Use make preprocess**:
    ```bash
     make preprocess
 
-5. **Use make process**:
+6. **Use make process**:
    ```bash
     make process
 
-6. **Use make postprocess**:
+7. **Use make postprocess**:
    ```bash
     make postprocess
