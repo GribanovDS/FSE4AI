@@ -27,7 +27,7 @@ To use this software, ensure you have the following installed:
 
 0. Download the model:
 
-https://drive.google.com/file/d/1EPZ8vyr43HHFk6an0erejU2d2X5hLGrs/view?usp=drive_link
+wget https://drive.google.com/uc?id=1EPZ8vyr43HHFk6an0erejU2d2X5hLGrs&export=download -O model.h5
 
 2. **Clone the Repository**:
    ```bash
