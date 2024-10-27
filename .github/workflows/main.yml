@@ -16,12 +16,12 @@ jobs:
             -
                 name: checkout
                 uses: actions/checkout@v4
-            # -
-            #     name: docker build
-            #     run: docker build -t my_project_image .
-            # -
-            #     name: docker run
-            #     run: docker run my_project_image
+            -
+                name: docker build
+                run: docker build -t my_project_image .
+            -
+                name: docker run
+                run: docker run my_project_image
             -
                 name: prereqs
                 run: sudo make prereqs
