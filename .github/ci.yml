@@ -18,14 +18,17 @@ jobs:
                 uses: actions/checkout@v4
             -
                 name: docker build
-                run: |
-                    docker build -t defect_detection_image .
-            -
-                name: create dirs
-                run: |
-                    mkdir -p output
-                    mkdir logs
+                run: docker build -t my_project_image .
             -
                 name: docker run
-                run: |
-                    docker run -v ./output:/app/output -v ./logs:/app/logs defect_detection_image
+                run: docker run -it --name my_project_container my_project_image
+            -
+                name: prereqs
+                run: make prereqs
+            -
+                name: build
+                run: make build
+            -
+                name: tests
+                run: make tests
+            
