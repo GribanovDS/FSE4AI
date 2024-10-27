@@ -43,6 +43,7 @@ prereqs:
 
 # Build target to compile the preprocessing executable
 build: 
+	@mkdir -p $(INPUT_DIR) $(OUTPUT_RAW_DIR) $(OUTPUT_DIR)
 	@$(CC) -c $(PREPROCESSING_SRC) -o $(PREPROCESSING_EXEC).o $(CFLAGS)
 	@chmod +x $(PREPROCESSING_EXEC).o
 	@$(CC) $(PREPROCESSING_EXEC).o -o $(PREPROCESSING_EXEC) $(LDFLAGS)

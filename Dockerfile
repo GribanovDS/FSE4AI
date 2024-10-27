@@ -10,7 +10,6 @@ COPY input_raw /app/input_raw
 COPY test /app/test
 
 RUN make prereqs
-RUN mkdir /app/input /app/output_raw /app/output
 
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
