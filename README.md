@@ -1,5 +1,7 @@
 ## Description
 
+<img width="717" alt="Снимок экрана 2024-10-27 в 18 33 17" src="https://github.com/user-attachments/assets/ef34c434-2e41-4827-9feb-6ad0856e84ad">
+
 The FSE4AI project is designed for image processing and classification using a pretrained machine learning model. The project implements functions for data preprocessing, processing, and postprocessing.
 
 # Instructions for Running the Project
