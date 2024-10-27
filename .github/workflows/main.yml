@@ -25,6 +25,7 @@ jobs:
             -
                 name: prereqs
                 run: make prereqs
+                  pip install -r requirements.txt
             -
                 name: build
                 run: make build
