@@ -54,4 +54,6 @@ The input_raw directory provides example images for cats and dogs in JPEG format
 
 ## Github Actions
 
+You can find it in GitHub Actions section
+
 
