@@ -25,10 +25,11 @@ jobs:
             -
                 name: prereqs
                 run: sudo make prereqs
+                  pip install -r requirements.txt
             -
                 name: build
                 run: sudo make build
             -
                 name: tests
-                run: sudo make preprocess
+                run: sudo make test
             
