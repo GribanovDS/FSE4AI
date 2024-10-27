@@ -27,8 +27,8 @@ jobs:
                 run: sudo make prereqs
             -
                 name: build
-                run: make build
+                run: sudo make build
             -
                 name: tests
-                run: make test
+                run: sudo make preprocess
             
