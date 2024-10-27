@@ -21,7 +21,7 @@ jobs:
                 run: docker build -t my_project_image .
             -
                 name: docker run
-                run: docker run -it --name my_project_container my_project_image
+                run: docker run my_project_image
             -
                 name: prereqs
                 run: make prereqs
