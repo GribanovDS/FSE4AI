@@ -28,6 +28,7 @@ prereqs:
 		libboost-filesystem-dev \
 		libboost-system-dev; \
 		pip install pytest; \
+		pip install numpy; \
 	elif [ "$(shell uname)" = "Darwin" ]; then \
 		echo "Detected macOS. Installing dependencies with brew..."; \
 		brew update && brew install \
