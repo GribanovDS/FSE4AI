@@ -24,7 +24,14 @@ jobs:
             #     run: docker run my_project_image
             -
                 name: prereqs
-                run: make prereqs
+                run: sudo apt-get update && sudo apt-get install -y \
+                  		python3 \
+                  		python3-pip \
+                  		vim \
+                  		libopencv-dev \
+                  		libboost-filesystem-dev \
+                  		libboost-system-dev; \
+                      pip install pytest; \
             -
                 name: build
                 run: make build
